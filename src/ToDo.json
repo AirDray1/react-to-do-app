@@ -1,0 +1,564 @@
+{
+    "todos": [   
+                {
+                    "id": "0e79c586-ce2f-4283-9015-824c6a30ef68",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Do something nice for someone you care about", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                }, 
+                {
+                    "id": "94ae88c5-9b3d-46cf-8c3d-5c5d84274d51",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Memorize a poem", 
+                    "date": "2012-04-23T18:25:43.511Z",
+                    "status": true,
+                    "userId": 1
+                }, 
+                {
+                    "id": "90a26ec6-26f9-4654-9620-75d0808e73c2",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Watch a classic movie", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                }, 
+                {
+                    "id": "ba3efbba-6fdb-4c88-a2db-67a554070f69",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Watch a documentary", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                }, 
+                {
+                    "id": "220b3f68-0175-4b5e-a552-58ae2837be20",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Invest in cryptocurrency", 
+                    "date": "2012-04-23T18:25:43.511Z",
+                    "status": false,
+                    "userId": 1
+                }, 
+                {
+                    "id": "1c175f59-1165-4bb3-bf3b-6ef5f4782cc6",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Contribute code or a monetary donation to an open-source software project", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                }, 
+                {
+                    "id": "f8849da6-a9c5-48f8-b6c5-37a0ce57bf46",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Solve a Rubik's cube", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                }, 
+                {
+                    "id": "fb7315f9-2f49-4959-b605-5aff89e122da",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Bake pastries for yourself and neighbor", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                }, 
+                {
+                    "id": "8a830d5b-c8b8-4101-b180-33e0a9414112",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Go see a Broadway production", 
+                    "date": "2012-04-23T18:25:43.511Z",
+                    "status": false,
+                    "userId": 1
+                }, 
+                {
+                    "id": "7f59b06c-0bb0-4826-bd80-f2aa3d8ca80b",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Write a thank you letter to an influential person in your life", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "94ec21a2-a311-46d9-ac01-8a8e8f695100",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Invite some friends over for a game night", 
+                    "date": "2012-04-23T18:25:43.511Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "f7abe46d-2f68-4d15-941f-2c1c4cbc994d",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Have a football scrimmage with some friends", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "bff1116e-e479-431b-a35b-f4bcf43caa0e",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Text a friend you haven't talked to in a long time", 
+                    "date": "2012-04-23T18:25:43.511Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "e47e514f-1c2c-4f44-a7f2-bfae4d984e6c",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Organize pantry", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "eb6790e1-e71c-4333-85a9-2addeea4bd6a",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Buy a new house decoration", 
+                    "date": "2025-02-20T11:03:18.529Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "3a439f7d-b92b-41d6-a3c4-16070bfa95c0",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Plan a vacation you've always wanted to take", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "3727ba52-861d-4fe4-95f6-4470a02e092b",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Clean out car", 
+                    "date": "2025-02-20T11:03:18.529Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "4855dcf0-83f6-4e0d-9a4c-5875f3583771",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Draw and color a Mandala", 
+                    "date": "2025-02-20T11:03:18.529Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "67ec98ed-c91a-4a51-a656-460f476e2662",
+                    "categoryId": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Create a cookbook with favorite recipes", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "a264c510-9264-4dc3-944c-896ebefbae46",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Bake a pie with some friends", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "dc731bf8-d032-4351-a896-b9f9a1394402",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Create a compost pile", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "da045d8d-b610-44ab-bb6e-d77e64ca8056",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Take a hike at a local park", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "1afb7921-5626-4c95-9c50-cf8ae375cab0",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Take a class at local community center that interests you", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "098c5b76-b1d5-4658-a312-4a22d6a675d5",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Research a topic interested in", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "fa6bd29b-4cac-4c65-ae84-891f2df2cb83",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Plan a trip to another country", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "4e774dae-36b1-4fd4-b471-65341a01cdbc",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Improve touch typing", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "cafb3572-fc7f-4826-af9f-2f2314f6cd78",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Learn Express.js", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "e0e148e5-7068-4ca0-b639-dcbb223ba707",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Learn calligraphy", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "c98060e4-217b-460f-b426-0476547b6f89",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Have a photo session with some friends", 
+                    "date": "2025-03-10T08:07:03.760Z",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "0eaebd73-54f5-4d8c-a1df-32229b054d76",
+                    "categoryId": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"                        
+                    ],
+                    "todo": "Go to the gym", 
+                    "date": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "status": true,
+                    "userId": 1
+                },
+                {
+                    "id": "d42b7ef1-3d7a-4d5e-9b57-8697f7e2cbaa",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": ["13df3efe-b285-49a5-91b7-477fbf5b20b5"],
+                    "todo": "Clean up the workspace",
+                    "date": "2025-02-19T14:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "ff347dba-bb5b-457d-829a-1212f54e3c01",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": ["13df3efe-b285-49a5-91b7-477fbf5b20b5"],
+                    "todo": "Exercise for 30 minutes",
+                    "date": "2025-02-20T08:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "6b8f3b2a-f3d9-4b24-a23b-92df7612e6d1",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": ["13df3efe-b285-49a5-91b7-477fbf5b20b5"],
+                    "todo": "Read a book for 1 hour",
+                    "date": "2025-02-21T18:30:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "f92db80e-0491-4a2c-9235-0b5417e56a3f",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": ["13df3efe-b285-49a5-91b7-477fbf5b20b5"],
+                    "todo": "Plan next week's tasks",
+                    "date": "2025-02-23T12:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "3e481ac2-57f4-4f9b-8f87-90f50620b5b1",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": ["13df3efe-b285-49a5-91b7-477fbf5b20b5"],
+                    "todo": "Buy groceries for the week",
+                    "date": "2025-02-24T16:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "1a5c9e08-1442-47b8-bad8-bf2c0dc3b722",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": ["13df3efe-b285-49a5-91b7-477fbf5b20b5"],
+                    "todo": "Schedule a dentist appointment",
+                    "date": "2025-02-25T10:30:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "9145e50b-95ad-45c3-b501-0c34ef9e4207",
+                    "categoryId": "270d0438-ce11-4819-88a0-7c9636fbc369",
+                    "tagsId": ["13df3efe-b285-49a5-91b7-477fbf5b20b5"],
+                    "todo": "Finish a project report",
+                    "date": "2025-02-26T20:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "5fcd129b-4b58-49a3-a8e3-0c15a5fcf73c",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Start a new book",
+                    "date": "2025-02-20T10:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "f9b37248-d80c-4d3c-b9e5-0b309fa2b7b3",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Write down three things you’re grateful for",
+                    "date": "2025-02-21T08:30:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "a2b4392c-38a8-4f79-a7a2-12e0b4b7e5d9",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Go for a morning run",
+                    "date": "2025-02-22T07:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "b8941acb-2e6d-44d7-bfe1-5057b8926b4d",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Plan meals for the next week",
+                    "date": "2025-02-23T15:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "ce983dab-402d-4647-9471-18bc8a2f60d2",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Declutter workspace",
+                    "date": "2025-02-24T12:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "d1a3e9b2-1234-4cd7-b81a-541b3d5c7d4a",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Try a new recipe",
+                    "date": "2025-02-25T18:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "eaa7183e-41fc-4c74-8cf2-658635927b6c",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Watch a sunset",
+                    "date": "2025-02-26T17:45:00.000Z",
+                    "status": false,
+                    "userId": 1
+                },
+                {
+                    "id": "fa0982d4-7027-4c48-b6c9-5a4b6c8f2921",
+                    "categoryId": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+                    "tagsId": [
+                        "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+                        "13df3efe-b285-49a5-91b7-477fbf5b20b5"
+                    ],
+                    "todo": "Start a journal",
+                    "date": "2025-02-27T09:00:00.000Z",
+                    "status": false,
+                    "userId": 1
+                }
+    ],
+    "categories": [
+        {
+            "id": "def7f6e6-bd1d-4955-a534-8e3ee5bb8a31",
+            "userId": 1,
+            "name": "Personal",            
+            "color": "#2d336b"       
+        },
+        {
+            "id": "270d0438-ce11-4819-88a0-7c9636fbc369",
+            "userId": 1,
+            "name": "Work",            
+            "color": "#ffa900"       
+        },
+        {
+            "id": "59afb7ac-d1d2-4b09-83fb-ce303e521752",
+            "userId": 1,
+            "name": "List 1",            
+            "color": "#ff0000"       
+        },
+        {
+            "id": "30da83ac-4a91-4c3b-a6e1-1b2f83244963",
+            "userId": 1,
+            "name": "List 2",            
+            "color": "#9d2fff"       
+        }
+    ],
+    "tags": [
+        {
+            "id": "08f336b4-f7fb-4a68-9ab2-821be2a8686e",
+            "userId": 1,
+            "name": "Tag 1",
+            "color": "#d1eaed"            
+        },
+        {
+            "id": "13df3efe-b285-49a5-91b7-477fbf5b20b5",
+            "userId": 1,
+            "name": "Tag 2",
+            "color": "#ffdada"            
+        }
+    ]
+
+}

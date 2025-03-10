@@ -1,0 +1,544 @@
+#root {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #444444;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.search-input {  
+  background: #fff;
+  color: #000;
+  padding: 4.5px;
+  border: 2.2px solid #dedbdb;
+  border-radius: 5px;
+}
+
+.task-element-counter {
+  background: #dedbdb;
+  border-radius: 17%;
+  transition: ease-in 0.2s;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.sidebar {
+  background-color: #F4F4F4;
+  max-height: 644px;
+  border-radius: 10px;
+}
+
+.sidebar > *:first-child {
+  margin-top: 2px;
+}
+
+.sidebar > *:last-child {
+  margin: 50px 0 10px 0;
+}
+
+.bar {
+  padding: 0px 10px;
+}
+
+.sidebar-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-head > h2 {
+  margin: 2.5px 0;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+}
+
+.block-headling {
+  margin: 10px 0px 7.5px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.list-elem {
+  display: grid;
+  grid-template-columns: 1fr 10fr 2fr;
+  padding: 2.5px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #444444;
+  transition: ease-in 0.2s;
+}
+
+.list-elem:hover {
+  background: #dedbdb;
+}
+
+.list-elem:hover > .task-element-counter {
+  background: #F4F4F4;
+}
+
+.list-elem-icon {
+  display: flex;
+}
+
+.list-elem-text {
+  text-align: justify;
+  transition: ease-in 0.2s;
+}
+
+.block-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.color-block-elem {
+  height: 12px;
+  width: 12px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 15.5%;
+}
+
+.tag-list {
+  display: grid;
+  grid-template-columns: repeat(3, 65px);
+  gap: 8px;
+}
+
+.tag-elem {
+  padding: 5.5px 10px;
+  border-radius: 16%;
+}
+
+.tag-elem-text {
+  color: #444444;
+}
+
+.main > h1{
+  margin-top: 10px;
+}
+
+.edit-block {
+  background-color: rgb(244, 244, 244);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.edit-block-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.edit-block-input {
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #999;
+  padding: 10px 5px;
+  font-size: 15px;
+  font-family: Roboto;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #444;
+}
+
+.main-container {
+  display: flex;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+.main-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.main-headling {
+  margin: 0;
+}
+
+.main-headline-block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-counter {
+  border: 1px solid #444;
+  border-radius: 7px;
+  font-size: 37.4px;
+  padding: 0 17.5px;
+}
+
+.today-content {
+  max-height: 440px;
+  overflow-y:auto;
+}
+
+.today-content::-webkit-scrollbar {
+  width: 3px;
+}
+
+.today-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.today-content::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.today-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.task-component {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  grid-template-areas:
+    "task-component-checkbox task-component-headling bi"
+    ". task-component-information .";
+  align-items: center;
+  gap: 17px;
+  padding: 8px 16px;
+  border-top: 0.25px solid #888;
+  border-bottom: 0.25px solid #888;
+}
+
+.task-component:first-child {
+  border-top: none;
+  border-bottom: 0.25px solid #888;
+}
+
+.task-component:last-child {
+  border-top: 0.25px solid #888;
+  border-bottom: none;
+}
+
+.task-component-checkbox {
+  grid-area: task-component-checkbox;
+  background: #fff;
+  height: 18px;
+  width: 18px;  
+}
+
+.task-component-headling {
+  grid-area: task-component-headling;
+  text-align: justify;
+  margin: 0px;
+}
+
+.task-component-information {
+  grid-area: task-component-information;
+  display: flex;
+}
+
+.task-component-information > * {
+  border-right: 0.5px solid #888;
+  border-left: 0.5px solid #888;  
+  padding: 0 14.5px 0;
+}
+
+.task-component-information > *:first-child {
+  border-right: 0.5px solid #888;
+  border-left: none;
+  padding: 0 14.5px 0 0;
+}
+
+.task-component-information > *:last-child {
+  border-right: none;
+  border-left: 0.5px solid #888;
+  padding: 0 0 0 14.5px;
+}
+
+.bi {
+  grid-area: bi;
+  cursor: pointer;
+}
+
+.task-info-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.task-info-tag-counter {
+  background: #dedbdb;
+  border-radius: 17%;
+  padding: 0 7px;
+}
+
+.task-info-category-color {
+  width: 12px;
+  height: 12px;
+  margin: 0px 0px 0px 5px;
+  border-radius: 15.5%;
+}
+
+.task-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.task-input {
+  background: #fff;
+  padding: 20px 11px 20px 55px;
+  border-radius: 10px;
+  flex: 1;
+  font-size: 20px;
+  color: #444;
+  border: none;
+}
+
+.task-input:focus {
+  outline: none;
+}
+
+.task-input-wrapper {  
+  border: 2.2px solid #a9a9a9;
+  border-radius: 10px;
+}
+
+.task-input-wrapper::before {
+  content: '';
+  background: url(./icons/plus.svg) no-repeat center center;
+  background-size: 30px;
+  position: absolute;
+  left: 20px;
+  width: 18px;
+  height: 18px;
+}
+
+.custom-task-select-block {
+  display: flex;
+  flex-direction: column;
+  border-left: 2.2px solid #a9a9a9;
+  padding: 0 15px;
+}
+
+.custom-task-select-text {
+  white-space: nowrap;
+}
+
+.custom-task-select {
+  position: relative;
+}
+
+.custom-task-select-checkbox, .edit-block-select-checkbox, .edit-block-calendar-checkbox {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cts {
+  cursor: pointer;
+  z-index: -9999;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 31px;
+  left: -17px;
+  background: #fff;
+  border: 2.2px solid #a9a9a9;
+  border-radius: 0 0 10px 10px;
+  max-width: 175px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 8px 0 15px;
+  list-style: none;
+}
+
+.custom-task-select-checkbox:checked + .cts {
+  z-index: 9999;
+  visibility: visible;
+  opacity: 1;
+}
+
+.custom-task-select-category {
+  font-weight: bold;
+}
+
+.task-component-checkbox:checked + .task-component-headling {
+  text-decoration: line-through;
+}
+
+/* Calendar */
+
+.edit-block-calendar-value {
+  position: relative;
+}
+
+.edit-block-select-checkbox:checked + .edit-cts {
+  z-index: 9999;
+  visibility: visible;
+  opacity: 1;
+}
+
+.edit-form-calendar {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  bottom: 0;
+  left: -167px;
+  background: #fff;
+  height: fit-content;
+  width: 303px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form-calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.edit-form-calendar-weekdays, .edit-form-calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.weekday {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.edit-form-calendar-day {
+  padding: 10px;
+  cursor: pointer;
+  background: #f4f4f4;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.day:hover {
+  background: #ddd;
+}
+
+.edit-block-category-value {
+  position: relative;
+}
+
+.edit-cts {
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 1;
+  max-width: 254px;
+  width: auto;
+  top: auto;
+  left: 0;
+  padding: 2px 8px;
+}
+
+.edit-form-calendar {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.edit-block-calendar-checkbox:checked + .edit-form-calendar {
+  z-index: 9999;
+  visibility: visible;
+  opacity: 1;
+}
+
+.edit-form-calendar-selected {
+  background: #4CAF50 !important;
+  color: white;
+}
+
+.edit-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.edit-block-headling {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit-block-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+  gap: 10px;
+}
+
+.edit-block-headling {
+  margin: 0;
+  font-size: 24px;
+}
+
+.edit-block-information {
+  display: grid;
+  gap: 4px;
+}

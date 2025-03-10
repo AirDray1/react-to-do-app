@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { Category, isToday, RootState, store, Task } from "../../Redux/redux copy";
+import { Category, isToday, RootState, store, Task } from "../../redux/redux copy";
 import TaskComponent from "../mainComponents/TaskComponent";
 import React, { useEffect, useState } from "react";
 import EditForm from "../mainComponents/EditForm";
@@ -78,7 +78,7 @@ function TodayPage() {
                                 <span className="custom-task-select-category">{tag.name}</span>
                                 <input type="checkbox" className="custom-tag-select-checkbox" />
                                 <ul className="cts">
-                                    {tags.map(e => <li className="custom_task_selections" key={e.id} onClick={() => changeCategory(e, "custom-tag-select-checkbox")}>{e.name}</li>)}
+                                    {tags.map(e => <li className="custom_task_selections" key={e.id} onClick={() => changeTag(e, "custom-tag-select-checkbox")}>{e.name}</li>)}
                                 </ul>
                             </div>
                         </div>

@@ -367,7 +367,7 @@
   position: relative;
 }
 
-.custom-task-select-checkbox, .edit-block-select-checkbox, .edit-block-calendar-checkbox {
+.custom-task-select-checkbox, .edit-block-select-checkbox, .edit-block-calendar-checkbox, .custom-tag-select-checkbox {
   position: absolute;
   cursor: pointer;
   opacity: 0;
@@ -396,7 +396,7 @@
   list-style: none;
 }
 
-.custom-task-select-checkbox:checked + .cts {
+.custom-task-select-checkbox:checked + .cts, .edit-block-select-checkbox:checked + .edit-cts, .custom-tag-select-checkbox + .cts {
   z-index: 9999;
   visibility: visible;
   opacity: 1;
@@ -410,16 +410,11 @@
   text-decoration: line-through;
 }
 
+
 /* Calendar */
 
 .edit-block-calendar-value {
   position: relative;
-}
-
-.edit-block-select-checkbox:checked + .edit-cts {
-  z-index: 9999;
-  visibility: visible;
-  opacity: 1;
 }
 
 .edit-form-calendar {

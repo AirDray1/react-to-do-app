@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Task } from "../../Redux/redux copy";
+import { Task } from "../../redux/redux copy";
 
 function UpcomingPage() {
     return (

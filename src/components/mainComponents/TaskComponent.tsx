@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { CalendarIcon, ChevronRightIcon } from "../../icons/icons";
-import { formatDate, Task, Category, store } from "../../Redux/redux copy";
+import { formatDate, Task, Category, store } from "../../redux/redux copy";
 
 function TaskComponent(prop: { element: Task, onTaskSelect: (task: Task) => void }) {
     const [completed, setCompleted] = useState<boolean>(prop.element.status)

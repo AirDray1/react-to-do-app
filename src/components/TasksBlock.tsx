@@ -1,8 +1,7 @@
 import { useSelector } from 'react-redux';
 import { UpcommingArrowIcon, TaskListIcon, CalendarIcon, StikyWallIcon } from "../icons/icons";
-import TasksElement from "./ListElement";
-import TodayPage from "./mainPages/TodayPage";
-import { store, RootState, isToday } from  "../Redux/redux copy"
+import ListElement from "../components/ListElement";
+import { store, RootState, isToday } from  "../redux/redux copy";
 
 function TasksBlock() {
     const todos = useSelector((state: RootState) => state.todos);
@@ -24,21 +23,21 @@ function TasksBlock() {
     <div className="tasks bar">
         <h4 className="block-headling">Tasks</h4>   
         <div className="block-list tasks-block">
-            <TasksElement 
+            <ListElement 
                 icon={<UpcommingArrowIcon width={22} height={22}/>}
                 text="Upcoming"
                 counter={upcomingCount}
                 onClick={() => store.dispatch({ type: 'SET_SELECTED_PAGE', payload: "Upcoming" })} />
-            <TasksElement 
+            <ListElement 
                 icon={<TaskListIcon width={22} height={22}/>}
                 text="Today" 
                 counter={todayCount}
                 onClick={() => store.dispatch({ type: 'SET_SELECTED_PAGE', payload:  "Today"})} />
-            <TasksElement 
+            <ListElement 
                 icon={<CalendarIcon width={22} height={22}/>}
                 text="Calendar"
                 onClick={() => store.dispatch({ type: 'SET_SELECTED_PAGE', payload: "Calendar" })} />
-            <TasksElement 
+            <ListElement 
                 icon={<StikyWallIcon width={22} height={22}/>}
                 text="Stiky wall"
                 onClick={() => store.dispatch({ type: 'SET_SELECTED_PAGE', payload: "Stiky wall" })} />

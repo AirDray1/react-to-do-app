@@ -1,11 +1,11 @@
 import './App.css';
-import Sidebar from './Components/LeftSidebar';
-import TodayPage from './Components/mainPages/TodayPage';
-import UpcomingPage from './Components/mainPages/UpcomingPage';
-import CalendarPage from './Components/mainPages/CalendarPage';
-import StickyWallPage from './Components/mainPages/StickyWallPage';
+import Sidebar from './components/LeftSidebar';
+import TodayPage from './components/mainPages/TodayPage';
+import UpcomingPage from './components/mainPages/UpcomingPage';
+import CalendarPage from './components/mainPages/CalendarPage';
+import StickyWallPage from './components/mainPages/StickyWallPage';
 import { useSelector } from 'react-redux';
-import { RootState } from './Redux/redux copy';
+import { RootState } from './redux/redux copy';
 
 type MainPageType = 'Upcoming' | 'Today' | 'Calendar' | 'Sticky_wall';
 

@@ -1,5 +1,5 @@
-import { Tag } from "../Redux/redux copy";
-import TagElement from "./TagElement";
+import { Tag } from "../redux/redux copy";
+import TagElement from "../components/TagElement";
 
 function TagsBlock(prop: {arr: Tag[]}) {
     let tagElements = prop.arr.map(el => <TagElement icon={el.color} text={el.name} />)

@@ -1,11 +1,11 @@
-import Search from "./Search";
-import TasksBlock from "./TasksBlock";
-import ListsBlock from "./ListsBlock";
+import Search from "../components/Search";
+import TasksBlock from "../components/TasksBlock";
+import ListsBlock from "../components/ListsBlock";
 import lists from "../ToDo.json";
-import TagsBlock from "./TagBlock";
-import ListElement from "./ListElement";
+import TagsBlock from "../components/TagBlock";
+import ListElement from "../components/ListElement";
 import { SettingsIcon, ExitIcon } from "../icons/icons";
-import { Category, store, Tag } from "../Redux/redux copy";
+import { Category, store, Tag } from "../redux/redux copy";
 
 
 function Sidebar() {    

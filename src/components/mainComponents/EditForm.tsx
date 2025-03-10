@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { CloseIcon } from "../../icons/icons";
-import { Category, RootState, store, Task } from "../../Redux/redux copy";
+import { RootState, store, Task } from "../../redux/redux copy";
 import { useSelector } from "react-redux";
-import CalendarPage from "../mainPages/CalendarPage";
-import CalendarInput from "./CalendarInput";
+import CalendarForm from "./CalendarForm";
 
 function EditForm(prop: {element: Task, onClose: () => void}) {
     const categories = useSelector((state: RootState) => state.categories)
@@ -26,7 +25,7 @@ function EditForm(prop: {element: Task, onClose: () => void}) {
         }
         setCategory(select)
     }
-
+    
     return (
         <div className="edit-block">
             <div className="edit-block-headling">
@@ -51,7 +50,7 @@ function EditForm(prop: {element: Task, onClose: () => void}) {
                     <div className="edit-block-calendar-value">
                         <span className="edit-block-calendar-value">{date.toString().split(" ").slice(0, 4).join(" ")}</span>
                         <input type="checkbox" className="edit-block-calendar-checkbox" />
-                        <CalendarInput date={date} setDate={setDate}/>
+                        <CalendarForm date={date} setDate={setDate}/>
                     </div>
                 </div>
                 <div className="edit-block-part">

@@ -1,6 +1,6 @@
-import React, { InputHTMLAttributes, useEffect, useState } from "react";
+import { useState } from "react";
 
-function CalendarInput(prop: {date: Date, setDate: (date: Date) => void}) {
+function CalendarForm(prop: {date: Date, setDate: (date: Date) => void}) {
     const [currentDate, setCurrentDate] = useState(new Date());
 
     const daysInMonth = (year: number, month: number) => new Date(year, month + 1, 0).getDate();
@@ -60,4 +60,4 @@ function CalendarInput(prop: {date: Date, setDate: (date: Date) => void}) {
     );
 };
 
-export default CalendarInput;
+export default CalendarForm;

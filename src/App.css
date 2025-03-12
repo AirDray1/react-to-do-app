@@ -384,7 +384,7 @@
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 31px;
+  top: 32px;
   left: -17px;
   background: #fff;
   border: 2.2px solid #a9a9a9;
@@ -396,7 +396,7 @@
   list-style: none;
 }
 
-.custom-task-select-checkbox:checked + .cts, .edit-block-select-checkbox:checked + .edit-cts, .custom-tag-select-checkbox + .cts {
+.custom-task-select-checkbox:checked + .cts, .edit-block-select-checkbox:checked + .edit-cts, .custom-tag-select-checkbox:checked + .custom-tag-select-checkbox-block .cts {
   z-index: 9999;
   visibility: visible;
   opacity: 1;
@@ -410,6 +410,9 @@
   text-decoration: line-through;
 }
 
+.custom-tag-select-block {
+  position: relative;
+}
 
 /* Calendar */
 

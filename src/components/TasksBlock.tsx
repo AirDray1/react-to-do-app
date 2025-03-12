@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import { UpcommingArrowIcon, TaskListIcon, CalendarIcon, StikyWallIcon } from "../icons/icons";
 import ListElement from "../components/ListElement";
-import { store, RootState, isToday } from  "../redux/redux copy";
+import { store, RootState, isToday } from  "../redux/redux";
 
 function TasksBlock() {
     const todos = useSelector((state: RootState) => state.todos);

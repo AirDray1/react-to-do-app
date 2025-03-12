@@ -5,7 +5,7 @@ import lists from "../ToDo.json";
 import TagsBlock from "../components/TagBlock";
 import ListElement from "../components/ListElement";
 import { SettingsIcon, ExitIcon } from "../icons/icons";
-import { Category, store, Tag } from "../redux/redux copy";
+import { Category, store, Tag } from "../redux/redux";
 
 
 function Sidebar() {    

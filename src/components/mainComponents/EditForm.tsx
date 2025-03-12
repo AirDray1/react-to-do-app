@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { CloseIcon } from "../../icons/icons";
-import { RootState, store, Task } from "../../redux/redux copy";
+import { RootState, store, Task } from "../../redux/redux";
 import { useSelector } from "react-redux";
 import CalendarForm from "./CalendarForm";
 

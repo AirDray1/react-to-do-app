@@ -1,4 +1,4 @@
-import { Tag } from "../redux/redux copy";
+import { Tag } from "../redux/redux";
 import TagElement from "../components/TagElement";
 
 function TagsBlock(prop: {arr: Tag[]}) {

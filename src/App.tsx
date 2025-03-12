@@ -5,7 +5,7 @@ import UpcomingPage from './components/mainPages/UpcomingPage';
 import CalendarPage from './components/mainPages/CalendarPage';
 import StickyWallPage from './components/mainPages/StickyWallPage';
 import { useSelector } from 'react-redux';
-import { RootState } from './redux/redux copy';
+import { RootState } from './redux/redux';
 
 type MainPageType = 'Upcoming' | 'Today' | 'Calendar' | 'Sticky_wall';
 

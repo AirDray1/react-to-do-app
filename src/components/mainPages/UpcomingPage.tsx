@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { Task } from "../../redux/redux copy";
+import { Task } from "../../redux/redux";
 
 function UpcomingPage() {
     return (
     <>
         <h1 className="main-headling">
-            {/* {prop.headline} */}
+        
         </h1>     
     </>);
 }

@@ -1,16 +1,37 @@
 import Search from "../components/Search";
 import TasksBlock from "../components/TasksBlock";
 import ListsBlock from "../components/ListsBlock";
-import lists from "../ToDo.json";
 import TagsBlock from "../components/TagBlock";
 import ListElement from "../components/ListElement";
 import { SettingsIcon, ExitIcon } from "../icons/icons";
-import { Category, store, Tag } from "../redux/redux";
+import { Category, RootState, store, Tag } from "../redux/redux";
+import AddInput from "./mainComponents/AddInput";
+import { useSelector } from "react-redux";
 
 
 function Sidebar() {    
-    let categoriesList: Category[] = store.getState().categories;
-    let tagList: Tag[] = store.getState().tags;
+    let categoriesList: Category[] = useSelector((state: RootState) => state.categories);
+    const tagList: Tag[] = useSelector((state: RootState) => state.tags);
+
+    const handleAddCategory = (newTask: string) => {
+        let pushObj: Category = {
+            id: `${crypto.randomUUID()}`,
+            userId: 1,
+            name: newTask,
+            color: '#fac'
+        }    
+        store.dispatch({type: "ADD_CATEGORY", payload: pushObj});
+    };
+
+    const handleAddTag = (NewTag: string) => {
+        let pushObj: Tag = {
+            id: `${crypto.randomUUID()}`,
+            userId: 1,
+            name: NewTag,
+            color: '#fac'
+        }    
+        store.dispatch({type: "ADD_TAG", payload: pushObj});
+    }
 
     return (<div className="sidebar">
         <div className="sidebar-head bar">
@@ -21,8 +42,14 @@ function Sidebar() {
         <TasksBlock />
         <hr/>
         <ListsBlock name="Lists" arr={categoriesList}/>
+        <div className="block-list lists-block">
+            <AddInput regex={/^[a-zA-Z0-9\s]{3,30}$/} pushObj={handleAddCategory} placeholder="Enter a new category..." maxLength={10}/>
+        </div>
         <hr/>
         <TagsBlock arr={tagList}/>
+        <div className="block-list lists-block">
+            <AddInput regex={/^[a-zA-Z0-9\s]{3,30}$/} pushObj={handleAddTag} placeholder="Enter a new tag..." maxLength={10}/>
+        </div>
         <div className="sidebar-bot block-list bar">
             <ListElement 
                 icon={<SettingsIcon width={22} height={22}/>}

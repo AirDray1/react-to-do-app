@@ -1,37 +1,49 @@
 import { useState } from "react";
-import { Category, store, Tag, Task } from "../../redux/redux";
 
-interface AddInputProps {
-    regex: RegExp;
-    pushObj: (obj: Task | Category | Tag) => void;
-    placeholder?: string;
+type InfoErrors = {
+    maxLength: boolean;
+    minLength: boolean;
+    unique: boolean;
+    tagAvalability: boolean;    
 }
 
-const AddInput: React.FC<AddInputProps> = ({ regex, pushObj, placeholder = "Add new item" }) => {
-    const [inputValue, setInputValue] = useState("");
+function AddInput (prop: { regex: RegExp, pushObj: (newTask: string) => void, placeholder: string, maxLength: number }) {
+    const [inputValue, setInputValue] = useState<string>("");
+    const [info, setInfo] = useState<InfoErrors>({maxLength: false, minLength: false, unique: false, tagAvalability: false});
 
     const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-        if (event.key === "Enter" && regex.test(inputValue.trim())) {
-            const newObj: Partial<Task | Category | Tag> = {
-                id: crypto.randomUUID(),
-                userId: 1, // This should be dynamically set
-                name: inputValue.trim(),
-                color: "#000000", // Default color (for categories/tags)
-            };
+        let minLengthCheck: boolean = /^.{3,}$/.test(inputValue);
+        // let maxLengthCheck: boolean = 
 
-            pushObj(newObj as Task | Category | Tag);
+        for(let key in info){
+            key === "maxLength" ? info[key as keyof InfoErrors] = /^.{3,}$/.test(inputValue) : console.log("missed maxLength")
+            // key === "maxLength" ? info[key as keyof InfoErrors] = prop.maxLength
+        }
+        if (event.key === "Enter" && prop.regex.test(inputValue)) {
+            prop.pushObj(inputValue.trim());
+            setInputValue("");
+        }
+    };
+    
+    const handleClick = (event: React.MouseEvent) => {
+        const el = document.elementFromPoint(event.clientX, event.clientY);
+        if (el && window.getComputedStyle(el, "::before").content !== "none" && prop.regex.test(inputValue)) {
+            prop.pushObj(inputValue.trim());
             setInputValue("");
         }
     };
 
     return (
-        <input
-            className="task-input border p-2 rounded shadow"
-            type="text"
-            placeholder={placeholder}
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-            onKeyDown={handleKeyDown}
-        />
+        <div className="task-input-content" onClick={handleClick}>
+            <input
+                className="task-input border p-2 rounded-md"
+                placeholder={prop.placeholder}
+                value={inputValue}
+                onChange={(e) => setInputValue(e.target.value)}
+                onKeyDown={handleKeyDown}
+            />
+        </div>
     );
-}
+};
+
+export default AddInput

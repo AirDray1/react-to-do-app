@@ -60,7 +60,7 @@
 
 .sidebar {
   background-color: #F4F4F4;
-  max-height: 644px;
+  max-height: 710px;
   border-radius: 10px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .sidebar > *:last-child {
-  margin: 50px 0 10px 0;
+  margin: 12px 0 10px 0;
 }
 
 .bar {
@@ -129,6 +129,20 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  max-height: 131px;
+  overflow-y: auto;
+}
+
+.block-list::-webkit-scrollbar {
+  width: 3px;
+}
+
+.block-list::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.block-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
 .color-block-elem {
@@ -139,14 +153,36 @@
 }
 
 .tag-list {
-  display: grid;
-  grid-template-columns: repeat(3, 65px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  max-height: 78px;
+  overflow-y: auto;
   gap: 8px;
 }
 
+.tag-list::-webkit-scrollbar {
+  width: 3px;
+}
+
+.tag-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tag-list::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.tag-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .tag-elem {
+  flex-grow: 1; 
+  min-width: 30px;
   padding: 5.5px 10px;
-  border-radius: 16%;
+  border-radius: 10px;
 }
 
 .tag-elem-text {
@@ -214,7 +250,7 @@
 }
 
 .today-content {
-  max-height: 440px;
+  max-height: 480px;
   overflow-y:auto;
 }
 
@@ -325,7 +361,7 @@
 
 .task-input {
   background: #fff;
-  padding: 20px 11px 20px 55px;
+  /* padding: 20px 11px 20px 55px; */
   border-radius: 10px;
   flex: 1;
   font-size: 20px;
@@ -338,15 +374,32 @@
 }
 
 .task-input-wrapper {  
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr;
   border: 2.2px solid #a9a9a9;
   border-radius: 10px;
 }
 
-.task-input-wrapper::before {
+.task-input-content {
+  position: relative;
+  display: flex;
+  padding: 20px 11px 20px 55px;
+}
+
+.lists-block .task-input-content {
+  margin: 5px 10px;
+  padding: 0;
+}
+
+.task-input-content::before {
   content: '';
+  cursor: pointer;
   background: url(./icons/plus.svg) no-repeat center center;
   background-size: 30px;
   position: absolute;
+  top: 37%;
+  right: 0;
+  bottom: 0;
   left: 20px;
   width: 18px;
   height: 18px;
@@ -408,6 +461,18 @@
 
 .task-component-checkbox:checked + .task-component-headling {
   text-decoration: line-through;
+}
+
+.lists-block .task-input {
+  font-size: 15px;
+  /* margin: 10px 10px 0px; */
+  padding: 10px 5px 10px 30px;
+  border-radius: 7px;
+}
+
+.lists-block .task-input-content::before {
+  top: 25%;
+  left: 6px;
 }
 
 .custom-tag-select-block {
